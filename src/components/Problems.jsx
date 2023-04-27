@@ -9,7 +9,7 @@ const Problems = () => {
         </Text>
       </Box>
       <Box alignSelf="flex-start" pt="40px">
-        <Text px="50px" color="#000" fontSize="xl" fontWeight="normal">
+        <Text px="50px" pb="20px" color="#000" fontSize="xl" fontWeight="normal">
           Whether it's at school or university, the one thing no one ever
           teaches you is how to teach yourself. We often just end up drilling
           specific exercises and mindlessly memorizing information so that when
@@ -18,7 +18,7 @@ const Problems = () => {
           that information will be retained. In the end, we're really just
           learning how to pass our tests.
         </Text>
-        <Text px="50px" color="#000" fontSize="xl" fontWeight="normal">
+        <Text px="50px" pb="20px" color="#000" fontSize="xl" fontWeight="normal">
           Here's the real question: does this approach of repetition and
           memorization help us truly understand the subject material? The
           academic consensus nowadays is that it doesn't. In fact, what's more

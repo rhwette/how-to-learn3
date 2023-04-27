@@ -1,7 +1,5 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
-// import { ChakraProvider } from '@chakra-ui/react';
-import { Grid, GridItem, Button } from '@chakra-ui/react';
+import { Grid, GridItem } from '@chakra-ui/react';
 import Header from './components/Header.jsx';
 import Intro from './components/Intro';
 import Problems from './components/Problems';
@@ -14,18 +12,6 @@ import Kahan from './components/Kahan';
 import Principles from './components/Principles';
 import Resources from './components/Resources';
 import Footer from './components/Footer';
-// import {
-//   ChakraProvider,
-//   Box,
-//   Text,
-//   Link,
-//   VStack,
-//   Code,
-//   Grid,
-//   theme,
-// } from '@chakra-ui/react';
-// import { ColorModeSwitcher } from './ColorModeSwitcher';
-// import { Logo } from './Logo';
 
 function App() {
   return (
@@ -81,7 +67,7 @@ function App() {
           <Kahan />
         </GridItem>
 
-        <GridItem area="principles" bg="light-gray">
+        <GridItem area="principles" bg="black">
           <Principles />
         </GridItem>
 
