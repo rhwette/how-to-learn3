@@ -43,7 +43,6 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-
 ### Deployment
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
@@ -51,3 +50,22 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Technologies Used
+
+    the tools used to build this page include:
+        React
+        Chakra UI
+
+        Each Section of the page corresponds to a React component
+
+        This page employs basic React components
+            (routes, hooks etc are not needed )
+
+### GitHub
+
+The github page is:
+https://rhwette.github.io/how-to-learn3/
+
+THe github repo is:
+https://github.com/rhwette/how-to-learn3.git
