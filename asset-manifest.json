@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/github.io/how-to-learn3/static/css/main.e6464e27.css",
-    "main.js": "/github.io/how-to-learn3/static/js/main.6f331f19.js",
-    "static/js/787.3e2e4cd5.chunk.js": "/github.io/how-to-learn3/static/js/787.3e2e4cd5.chunk.js",
-    "static/media/khan-book-2.png": "/github.io/how-to-learn3/static/media/khan-book-2.2961392e83044ca60048.png",
-    "static/media/intro-image.png": "/github.io/how-to-learn3/static/media/intro-image.13303a317b392d978766.png",
-    "static/media/feynman.png": "/github.io/how-to-learn3/static/media/feynman.720eed9e9012a8956445.png",
-    "static/media/learning-techniques-recall.png": "/github.io/how-to-learn3/static/media/learning-techniques-recall.43bbca36d98f5f018e69.png",
-    "static/media/learning-techniques-book.png": "/github.io/how-to-learn3/static/media/learning-techniques-book.9953d57d2f82cecd3df6.png",
-    "static/media/learning-techniques-question.png": "/github.io/how-to-learn3/static/media/learning-techniques-question.bb394ad53a779f718428.png",
-    "static/media/learning-techniques-interleaving.png": "/github.io/how-to-learn3/static/media/learning-techniques-interleaving.96ee38ade3bdf6b2d0aa.png",
-    "static/media/learning-techniques-competence.png": "/github.io/how-to-learn3/static/media/learning-techniques-competence.116eb7ec72f1ad44a957.png",
-    "static/media/logo.png": "/github.io/how-to-learn3/static/media/logo.1d2ccfdcbf3d7fba3075.png",
-    "index.html": "/github.io/how-to-learn3/index.html",
-    "static/media/kaufman-triangle.svg": "/github.io/how-to-learn3/static/media/kaufman-triangle.8f3dc5fbf5dd8dd611e313387a83ac29.svg",
-    "main.e6464e27.css.map": "/github.io/how-to-learn3/static/css/main.e6464e27.css.map",
-    "main.6f331f19.js.map": "/github.io/how-to-learn3/static/js/main.6f331f19.js.map",
-    "787.3e2e4cd5.chunk.js.map": "/github.io/how-to-learn3/static/js/787.3e2e4cd5.chunk.js.map"
+    "main.css": "/rhwette/github.io/how-to-learn3/static/css/main.e6464e27.css",
+    "main.js": "/rhwette/github.io/how-to-learn3/static/js/main.ff7fcc37.js",
+    "static/js/787.3e2e4cd5.chunk.js": "/rhwette/github.io/how-to-learn3/static/js/787.3e2e4cd5.chunk.js",
+    "static/media/khan-book-2.png": "/rhwette/github.io/how-to-learn3/static/media/khan-book-2.2961392e83044ca60048.png",
+    "static/media/intro-image.png": "/rhwette/github.io/how-to-learn3/static/media/intro-image.13303a317b392d978766.png",
+    "static/media/feynman.png": "/rhwette/github.io/how-to-learn3/static/media/feynman.720eed9e9012a8956445.png",
+    "static/media/learning-techniques-recall.png": "/rhwette/github.io/how-to-learn3/static/media/learning-techniques-recall.43bbca36d98f5f018e69.png",
+    "static/media/learning-techniques-book.png": "/rhwette/github.io/how-to-learn3/static/media/learning-techniques-book.9953d57d2f82cecd3df6.png",
+    "static/media/learning-techniques-question.png": "/rhwette/github.io/how-to-learn3/static/media/learning-techniques-question.bb394ad53a779f718428.png",
+    "static/media/learning-techniques-interleaving.png": "/rhwette/github.io/how-to-learn3/static/media/learning-techniques-interleaving.96ee38ade3bdf6b2d0aa.png",
+    "static/media/learning-techniques-competence.png": "/rhwette/github.io/how-to-learn3/static/media/learning-techniques-competence.116eb7ec72f1ad44a957.png",
+    "static/media/logo.png": "/rhwette/github.io/how-to-learn3/static/media/logo.1d2ccfdcbf3d7fba3075.png",
+    "index.html": "/rhwette/github.io/how-to-learn3/index.html",
+    "static/media/kaufman-triangle.svg": "/rhwette/github.io/how-to-learn3/static/media/kaufman-triangle.8f3dc5fbf5dd8dd611e313387a83ac29.svg",
+    "main.e6464e27.css.map": "/rhwette/github.io/how-to-learn3/static/css/main.e6464e27.css.map",
+    "main.ff7fcc37.js.map": "/rhwette/github.io/how-to-learn3/static/js/main.ff7fcc37.js.map",
+    "787.3e2e4cd5.chunk.js.map": "/rhwette/github.io/how-to-learn3/static/js/787.3e2e4cd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6464e27.css",
-    "static/js/main.6f331f19.js"
+    "static/js/main.ff7fcc37.js"
   ]
 }
