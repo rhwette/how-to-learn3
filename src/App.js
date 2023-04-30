@@ -22,7 +22,7 @@ function App() {
       w={['320px', '375px', '425px', '768px', '1024px', '1440px']}
       // w="100%"
       h="100%"
-      bg="red.100"
+      bg="blue.100"
     >
       <Grid
         templateAreas={`  "header"
@@ -47,9 +47,9 @@ function App() {
           <Intro />
         </GridItem>
 
-        {/* <GridItem area="problems">
+        <GridItem area="problems">
           <Problems />
-        </GridItem> */}
+        </GridItem>
 
         {/* <GridItem area="techniques">
           <Techniques />

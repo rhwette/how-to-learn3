@@ -1,52 +1,44 @@
 .intro {
-    /* max-width: 1440px; */
-    /* background-color: aqua; */
+
 }
 
 @media screen and (max-width:1024px) {
     .intro {
-        /* max-width: 949px; */
-        /* background-color: green; */
+
     }
 }
 
 @media screen and (max-width:768px) {
     .intro {
-        /* max-width: 767px; */
-        /* background-color: yellowgreen; */
+
     }
 }
 
 @media screen and (max-width:425px) {
     .intro {
-        /* max-width: 499px; */
-        /* background-color: purple; */
+
     }
 }
 
 @media screen and (max-width:375px) {
     .intro {
-        /* max-width: 349px; */
-        /* background-color: burlywood; */
+
     }
 }
 
 @media screen and (max-width:320px) {
     .intro {
-        /* max-width: 320px; */
-        /* background-color: burlywood; */
+
     }
 }
 
 .introImage {
-    /* background-color: aqua; */
     width: 250px;
     height: 250px;
 }
 
 @media screen and (max-width:1024px) {
     .introImage {
-        /* background-color: green; */
         width: 200px;
         height: 200px;
     }
@@ -54,7 +46,6 @@
 
 @media screen and (max-width:768px) {
     .introImage {
-        /* background-color: yellowgreen; */
         width: 150px;
         height: 150px;
     }
@@ -62,7 +53,6 @@
 
 @media screen and (max-width:425px) {
     .introImage {
-        /* background-color: purple; */
         width: 125px;
         height: 125px;
     }
@@ -70,7 +60,6 @@
 
 @media screen and (max-width:375px) {
     .introImage {
-        /* background-color: burlywood; */
         width: 85px;
         height: 85px;
     }
@@ -78,61 +67,53 @@
 
 @media screen and (max-width:320px) {
     .introImage {
-        /* background-color: burlywood; */
         width: 75px;
         height: 75px;
     }
 }
 
 .introTextLarge {
-    /* max-width: 1440px; */
     font-size: 34px;
     padding-left: 5px ;
 
 }
 
 @media screen and (max-width:1024px) {
-.introTextLarge {
-     /* max-width: 1024px; */
-     font-size: 28px;
-     padding-left: 5px;
+    .introTextLarge {
+        font-size: 28px;
+        padding-left: 5px;
     }
 }
 
 @media screen and (max-width:768px) {
-.introTextLarge {
-     /* max-width: 768px; */
-     font-size: 28px;
-     padding-left: 5px;
+    .introTextLarge {
+        font-size: 28px;
+        padding-left: 5px;
         }
     }
 
 @media screen and (max-width:425px) {
-.introTextLarge {
-    /* max-width: 425px; */
-    font-size: 26px;
-    padding-left: 5px;
+    .introTextLarge {
+        font-size: 26px;
+        padding-left: 5px;
     }
 }
 
 @media screen and (max-width:375px) {
-.introTextLarge {
-    /* max-width: 375px; */
-    font-size: 22px;
-    padding-left: 5px;
+    .introTextLarge {
+        font-size: 22px;
+        padding-left: 5px;
     }
 }
 
 @media screen and (max-width:320px) {
-.introTextLarge {
-    /* max-width: 320px; */
-    font-size: 20px;
-    padding-left: 5px ;
+    .introTextLarge {
+        font-size: 20px;
+        padding-left: 5px ;
     }
 }
 
 .introTextMedium {
-    /* max-width: 1440px; */
     font-size: 18px;
     padding-left: 10px ;
 }
@@ -142,13 +123,11 @@
     .introTextMedium {
         font-size: 16px;
         padding-left: 10px;
-        /* max-width: 1024px; */
     }
 }
 
 @media screen and (max-width:768px) {
     .introTextMedium {
-        /* max-width: 768; */
         font-size: 16px;
         padding-left: 10px;
     }
@@ -156,7 +135,6 @@
 
 @media screen and (max-width:425px) {
     .introTextMedium {
-        /* max-width: 425px; */
         font-size: 16px;
         padding-left: 10px;
     }
@@ -164,7 +142,6 @@
 
 @media screen and (max-width:375px) {
     .introTextMedium {
-        /* max-width: 375px; */
         font-size: 14px;
         padding-left: 10px;
     }
@@ -172,7 +149,6 @@
 
 @media screen and (max-width:320px) {
     .introTextMedium {
-        /* max-width: 375px; */
         font-size: 12px;
         padding-left: 10px;
     }
