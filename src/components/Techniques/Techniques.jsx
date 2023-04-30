@@ -1,9 +1,9 @@
 import { Image, Grid, Box, Text, Center } from '@chakra-ui/react';
-import techImage1 from '../assets/learning-techniques-book.png';
-import techImage2 from '../assets/learning-techniques-competence.png';
-import techImage3 from '../assets/learning-techniques-interleaving.png';
-import techImage4 from '../assets/learning-techniques-question.png';
-import techImage5 from '../assets/learning-techniques-recall.png';
+import techImage1 from '../../assets/learning-techniques-book.png';
+import techImage2 from '../../assets/learning-techniques-competence.png';
+import techImage3 from '../../assets/learning-techniques-interleaving.png';
+import techImage4 from '../../assets/learning-techniques-question.png';
+import techImage5 from '../../assets/learning-techniques-recall.png';
 
 const Techniques = () => {
   return (
