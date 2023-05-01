@@ -3,6 +3,7 @@ import "../Intro/intro.css";
 
 const Problems = () => {
   return (
+    <Box    w={["320px", "375px", "425px", "768px", "1024px", "1440px"]}>
     <HStack className="intro" justifyContent="space-between">
       <Box alignSelf="flex-start" pt="30px">
         <Text className="introTextLarge"   color="#000" fontWeight="bold">
@@ -52,6 +53,7 @@ const Problems = () => {
         </Text>
       </Box>
     </HStack>
+    </Box>
   );
 };
 

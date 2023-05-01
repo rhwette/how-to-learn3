@@ -51,9 +51,9 @@ function App() {
           <Problems />
         </GridItem>
 
-        {/* <GridItem area="techniques">
+        <GridItem area="techniques">
           <Techniques />
-        </GridItem> */}
+        </GridItem>
 
         {/* <GridItem area="ted">
           <Ted />
