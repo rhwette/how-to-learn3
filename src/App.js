@@ -14,79 +14,76 @@ import Kahan from './components/Kahan';
 import Principles from './components/Principles';
 import Resources from './components/Resources';
 import Footer from './components/Footer';
-// import './components/Page/page.css';
+import './App.css';
 
 function App() {
   return (
-    <Box
-      w={['320px', '375px', '425px', '768px', '1024px', '1440px']}
-      // w="100%"
-      h="100%"
-      bg="blue.100"
-    >
-      <Grid
-        templateAreas={`  "header"
-                                "intro"
-                                "problems"
-                                "techniques"
-                                "ted"
-                                "oakleyaside"
-                                "feynman"
-                                "factsandfigs"
-                                "kahan"
-                                "principles"
-                                "resources"
-                                "footer"
-                                `}
-      >
-        <GridItem area="header">
-          <Header></Header>
-        </GridItem>
+    <Box className="container">
+      <Box border={'dashed'} marginRight={'10px'} marginLeft={'10px'} h="100%">
+        <Grid
+          templateAreas={`  "header"
+                                  "intro"
+                                  "problems"
+                                  "techniques"
+                                  "ted"
+                                  "oakleyaside"
+                                  "feynman"
+                                  "factsandfigs"
+                                  "kahan"
+                                  "principles"
+                                  "resources"
+                                  "footer"
+                                  `}
+        >
+          <GridItem area="header">
+            <Header></Header>
+          </GridItem>
 
-        <GridItem area="intro">
-          <Intro />
-        </GridItem>
+          <GridItem area="intro">
+            <Intro />
+          </GridItem>
 
-        <GridItem area="problems">
-          <Problems />
-        </GridItem>
+          <GridItem area="problems">
+            <Problems />
+          </GridItem>
 
-        <GridItem area="techniques">
-          <Techniques />
-        </GridItem>
+          <GridItem area="techniques">
+            <Techniques />
+          </GridItem>
 
-        {/* <GridItem area="ted">
-          <Ted />
-        </GridItem> */}
+          {/* <GridItem area="ted">
+            <Ted />
+          </GridItem> */}
 
-        {/* <GridItem area="oakleyaside" bg="orange">
-          <Oakley />
-        </GridItem> */}
+          {/* <GridItem area="oakleyaside" bg="orange">
+            <Oakley />
+          </GridItem> */}
 
-        {/* <GridItem area="feynman">
-          <Feynman />
-        </GridItem> */}
+          {/* <GridItem area="feynman">
+            <Feynman />
+          </GridItem> */}
 
-        {/* <GridItem area="factsandfigs">
-          <FactsAndFigs />
-        </GridItem> */}
+          {/* <GridItem area="factsandfigs">
+            <FactsAndFigs />
+          </GridItem> */}
 
-        {/* <GridItem area="kahan" bg="gray">
-          <Kahan />
-        </GridItem> */}
+          {/* <GridItem area="kahan" bg="gray">
+            <Kahan />
+          </GridItem> */}
 
-        {/* <GridItem area="principles" bg="black">
-          <Principles />
-        </GridItem> */}
+          {/* <GridItem area="principles" bg="black">
+            <Principles />
+          </GridItem> */}
 
-        {/* <GridItem area="resources" bg="#D3D3D3">
-          <Resources />
-        </GridItem> */}
+          {/* <GridItem area="resources" bg="#D3D3D3">
+            <Resources />
+          </GridItem> */}
 
-        <GridItem area="footer" bg="black">
-          <Footer />
-        </GridItem>
-      </Grid>
+          {/* <GridItem area="footer" bg="black">
+            <Footer />
+          </GridItem> */}
+        </Grid>
+      </Box>
     </Box>
   );
 }
