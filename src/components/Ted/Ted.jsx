@@ -9,7 +9,7 @@ const Ted = () => {
         px="50px"
         pt="50px"
         color="#000"
-        fontSize="4xl"
+        fontSize="34px"
         fontWeight="bold"
       >
         TED talks

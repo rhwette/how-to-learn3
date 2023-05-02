@@ -6,10 +6,10 @@ import Header from './components/Header.jsx';
 import Intro from './components/Intro/Intro.jsx';
 import Problems from './components/Problems/Problems.jsx';
 import Techniques from './components/Techniques/Techniques.jsx';
-import Ted from './components/Ted';
+import Ted from './components/Ted/Ted.jsx';
 import Oakley from './components/Oakley/Oakley.jsx';
 import Feynman from './components/Feynman/Feynman.jsx';
-import FactsAndFigs from './components/FactsAndFigs';
+import FactsAndFigs from './components/FactsAndFigs/FactsAndFigs.jsx';
 import Kahan from './components/Kahan';
 import Principles from './components/Principles';
 import Resources from './components/Resources';
@@ -63,9 +63,9 @@ function App() {
             <Feynman />
           </GridItem>
 
-          {/* <GridItem area="factsandfigs">
+          <GridItem area="factsandfigs">
             <FactsAndFigs />
-          </GridItem> */}
+          </GridItem>
 
           {/* <GridItem area="kahan" bg="gray">
             <Kahan />

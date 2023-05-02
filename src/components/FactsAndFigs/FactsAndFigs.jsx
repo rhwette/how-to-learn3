@@ -1,15 +1,16 @@
 import { OrderedList, ListItem, Text, Center } from '@chakra-ui/react';
+import "../Intro/intro.css";
 
 const FactsAndFigs = () => {
   return (
     <>
       <Center>
         <Text
+          className="introTextLarge" 
           textAlign="center"
           pt="100px"
           px="50px"
           color="#000"
-          fontSize="5xl"
           fontWeight="bold"
         >
           Facts and figures
@@ -18,10 +19,10 @@ const FactsAndFigs = () => {
 
       <Center>
         <Text
+          className="introTextMedium"
           textAlign="center"
           px="50px"
           color="#000"
-          fontSize="xl"
           fontWeight="normal"
         >
           On learning and the brain
