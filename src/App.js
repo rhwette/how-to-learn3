@@ -10,7 +10,7 @@ import Ted from './components/Ted/Ted.jsx';
 import Oakley from './components/Oakley/Oakley.jsx';
 import Feynman from './components/Feynman/Feynman.jsx';
 import FactsAndFigs from './components/FactsAndFigs/FactsAndFigs.jsx';
-import Kahan from './components/Kahan';
+import Kahan from './components/Kahan/Kahan.jsx';
 import Principles from './components/Principles';
 import Resources from './components/Resources';
 import Footer from './components/Footer';
@@ -67,9 +67,9 @@ function App() {
             <FactsAndFigs />
           </GridItem>
 
-          {/* <GridItem area="kahan" bg="gray">
+          <GridItem area="kahan">
             <Kahan />
-          </GridItem> */}
+          </GridItem>
 
           {/* <GridItem area="principles" bg="black">
             <Principles />
