@@ -1,9 +1,42 @@
-.video__iframe {
-    margin-left: 10px;
-    margin-right: 10px;
-    border: none;
-    width:515px;
-    height: 316px;
-    /* margin-bottom: 25px; */
-    /* transform: translateY(65px); */
-  }
+  .video__iframe {
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    gap: 20px;
+} 
+
+@media screen and (max-width:1024px) {
+    .video__iframe {
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    gap: 20px;
+}
+}
+
+@media screen and (max-width:768px) {
+    .video__iframe {
+        display: grid;
+        grid-template-columns: 1fr  ;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .video__iframe {
+        display: grid;
+        grid-template-columns: 1fr  ;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .video__iframe {
+        display: grid;
+        grid-template-columns: 1fr  ;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .video__iframe {
+        display: grid;
+        grid-template-columns: 1fr  ;
+        gap: 20px;
+    }
+}
