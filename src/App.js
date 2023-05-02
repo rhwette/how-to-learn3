@@ -8,7 +8,7 @@ import Problems from './components/Problems/Problems.jsx';
 import Techniques from './components/Techniques/Techniques.jsx';
 import Ted from './components/Ted';
 import Oakley from './components/Oakley/Oakley.jsx';
-import Feynman from './components/Feynman';
+import Feynman from './components/Feynman/Feynman.jsx';
 import FactsAndFigs from './components/FactsAndFigs';
 import Kahan from './components/Kahan';
 import Principles from './components/Principles';
@@ -59,9 +59,9 @@ function App() {
             <Oakley />
           </GridItem>
 
-          {/* <GridItem area="feynman">
+          <GridItem area="feynman">
             <Feynman />
-          </GridItem> */}
+          </GridItem>
 
           {/* <GridItem area="factsandfigs">
             <FactsAndFigs />

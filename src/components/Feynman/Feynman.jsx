@@ -1,26 +1,27 @@
 import { Image, Text, Center, Box } from '@chakra-ui/react';
-import feynmanImage from '../assets/feynman.png';
+import feynmanImage from '../../assets/feynman.png';
+import "../Intro/intro.css";
 
 const Feynman = () => {
   return (
     <Center>
-      <Box pt="50px" bg="white">
+      <Box pt="100px" >
         <Image src={feynmanImage} />
         <Text
+          className="introTextLarge" 
           textAlign="center"
-          pt="25px"
+          pt="50px"
           px="50px"
           color="#000"
-          fontSize="4xl"
           fontWeight="bold"
         >
           The Feynman Technique
         </Text>
         <Text
+          className="introTextMedium"
           textAlign="center"
           px="50px"
           color="#000"
-          fontSize="xl"
           fontWeight="normal"
         >
           Learn without forgetting
