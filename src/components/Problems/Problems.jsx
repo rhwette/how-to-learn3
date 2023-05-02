@@ -6,7 +6,7 @@ const Problems = () => {
     <Box w="100%">
     <HStack  justifyContent="space-between">
       <Box alignSelf="flex-start" pt="30px">
-        <Text className="introTextLarge"   color="#000" fontWeight="bold">
+        <Text className="introTextLarge"   px="50px" color="#000" fontWeight="bold">
           The main problem with education
         </Text>
       </Box>

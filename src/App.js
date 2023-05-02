@@ -7,7 +7,7 @@ import Intro from './components/Intro/Intro.jsx';
 import Problems from './components/Problems/Problems.jsx';
 import Techniques from './components/Techniques/Techniques.jsx';
 import Ted from './components/Ted';
-import Oakley from './components/Oakley';
+import Oakley from './components/Oakley/Oakley.jsx';
 import Feynman from './components/Feynman';
 import FactsAndFigs from './components/FactsAndFigs';
 import Kahan from './components/Kahan';
@@ -26,7 +26,7 @@ function App() {
                                   "problems"
                                   "techniques"
                                   "ted"
-                                  "oakleyaside"
+                                  "oakley"
                                   "feynman"
                                   "factsandfigs"
                                   "kahan"
@@ -55,9 +55,9 @@ function App() {
             <Ted />
           </GridItem>
 
-          {/* <GridItem area="oakleyaside" bg="orange">
+          <GridItem area="oakley">
             <Oakley />
-          </GridItem> */}
+          </GridItem>
 
           {/* <GridItem area="feynman">
             <Feynman />
