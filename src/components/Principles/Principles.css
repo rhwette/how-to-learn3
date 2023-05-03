@@ -1,0 +1,87 @@
+.kaufman {
+    /* this class is not used here */
+    /* background-color: #1f1f1f; */
+    background-color: pink;
+    color:#F2F2F2;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+    z-index: 1;
+  }
+
+  .kaufman__triangle {
+    background-color: rgba(223, 196, 196,.0);
+    position: relative;
+    top: -200px;
+    right: -400px;
+    z-index: 4;
+    width: 20vw;
+    height: 20vw;
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+
+
+@media screen and (max-width: 768px) {
+  .kaufman__triangle {
+    width: 30vw;
+    height: 30vw;
+    top: -200px;
+    right: -300px;
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .kaufman__triangle {
+    width: 80vw;
+    height: 80vw;
+    top: -200px;
+    right: -120px;
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .kaufman__triangle {
+    width: 60vw;
+    height: 60vw;
+    top: -200px;
+    right: -50px;
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+
+
+
+
+.rotation {
+    animation: rotation 
+    20s 
+    linear
+    0s 
+    infinite 
+    normal 
+    none 
+    running;
+  }  
+
+  @keyframes rotation {
+    from {
+        transform: rotate(-15deg);
+      }
+    to {
+        transform: rotate(345deg);
+      }
+    }

@@ -11,7 +11,7 @@ import Oakley from './components/Oakley/Oakley.jsx';
 import Feynman from './components/Feynman/Feynman.jsx';
 import FactsAndFigs from './components/FactsAndFigs/FactsAndFigs.jsx';
 import Kahan from './components/Kahan/Kahan.jsx';
-import Principles from './components/Principles';
+import Principles from './components/Principles/Principles.jsx';
 import Resources from './components/Resources';
 import Footer from './components/Footer';
 import './App.css';
@@ -71,9 +71,9 @@ function App() {
             <Kahan />
           </GridItem>
 
-          {/* <GridItem area="principles" bg="black">
+          <GridItem area="principles" bg="black">
             <Principles />
-          </GridItem> */}
+          </GridItem>
 
           {/* <GridItem area="resources" bg="#D3D3D3">
             <Resources />

@@ -1,17 +1,18 @@
-import { OrderedList, ListItem, Text, Center, Image } from '@chakra-ui/react';
-import triangleImage from '../assets/kaufman-triangle.svg';
+import { OrderedList, ListItem, Text, Center, Image, Box } from '@chakra-ui/react';
+import triangleImage from '../../assets/kaufman-triangle.svg';
 import './Principles.css';
+import "../Intro/intro.css";
 
 const Principles = () => {
   return (
     <>
       <Center>
         <Text
+          className="introTextLarge"
           textAlign="center"
           pt="50px"
           px="50px"
           color="#D3D3D3"
-          fontSize="5xl"
           fontWeight="bold"
         >
           Ten principles of skill acquisition
@@ -20,25 +21,26 @@ const Principles = () => {
 
       <Center>
         <Text
+          className="introTextMedium"
           textAlign="center"
           px="50px"
           pb="20px"
           color="#D3D3D3"
-          fontSize="xl"
           fontWeight="bold"
         >
           by Josh Kaufman
         </Text>
       </Center>
 
-      <Center>
-        <OrderedList>
+      
+      <Box w="100%"  display={"flex"} justifyContent={"Center"}>
+        <OrderedList mx="50px" justifyContent="center" className="introTextMedium" >
           {/* List Item #1 starts here */}
           <ListItem
+          
             listStyleType="decimal"
             fontWeight="bold"
             color="#D3D3D3"
-            fontSize="xl"
           >
             <Text fontWeight={'normal'} ml={'10px'}>
               Choose a lovable project
@@ -50,7 +52,6 @@ const Principles = () => {
             listStyleType="decimal"
             fontWeight="bold"
             color="#D3D3D3"
-            fontSize="xl"
           >
             <Text fontWeight={'normal'} ml={'10px'}>
               Focus your energy on one skill at a time
@@ -62,7 +63,7 @@ const Principles = () => {
             listStyleType="decimal"
             fontWeight="bold"
             color="#D3D3D3"
-            fontSize="xl"
+            // ="xl"
           >
             <Text fontWeight={'normal'} ml={'10px'}>
               Define your target performance level
@@ -74,7 +75,6 @@ const Principles = () => {
             listStyleType="decimal"
             fontWeight="bold"
             color="#D3D3D3"
-            fontSize="xl"
           >
             <Text fontWeight={'normal'} ml={'10px'}>
               Deconstruct the skill into sub-skills
@@ -86,7 +86,6 @@ const Principles = () => {
             listStyleType="decimal"
             fontWeight="bold"
             color="#D3D3D3"
-            fontSize="xl"
           >
             <Text fontWeight={'normal'} ml={'10px'}>
               Obtain critical tools
@@ -98,7 +97,6 @@ const Principles = () => {
             listStyleType="decimal"
             fontWeight="bold"
             color="#D3D3D3"
-            fontSize="xl"
           >
             <Text fontWeight={'normal'} ml={'10px'}>
               Eliminate barriers to practice
@@ -110,7 +108,6 @@ const Principles = () => {
             listStyleType="decimal"
             fontWeight="bold"
             color="#D3D3D3"
-            fontSize="xl"
           >
             <Text fontWeight={'normal'} ml={'10px'}>
               Make dedicated time for practice
@@ -122,7 +119,6 @@ const Principles = () => {
             listStyleType="decimal"
             fontWeight="bold"
             color="#D3D3D3"
-            fontSize="xl"
           >
             <Text fontWeight={'normal'} ml={'10px'}>
               Create fast feedback loops
@@ -134,7 +130,6 @@ const Principles = () => {
             listStyleType="decimal"
             fontWeight="bold"
             color="#D3D3D3"
-            fontSize="xl"
           >
             <Text fontWeight={'normal'} ml={'10px'}>
               Practice by the clock in short bursts
@@ -146,20 +141,20 @@ const Principles = () => {
             listStyleType="decimal"
             fontWeight="bold"
             color="#D3D3D3"
-            fontSize="xl"
           >
             <Text fontWeight={'normal'} ml={'10px'}>
               Emphasize quantity and speed
             </Text>
           </ListItem>
         </OrderedList>
-
+        </Box>
         <Image
-          className="kaufman__triangle rotation"
+          className=" kaufman__triangle rotation"
           src={triangleImage}
-          boxSize="400px"
+          boxSize="200px"
         />
-      </Center>
+
+        
     </>
   );
 };
