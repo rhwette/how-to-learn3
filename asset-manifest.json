@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/how-to-learn3/static/css/main.e6464e27.css",
-    "main.js": "/how-to-learn3/static/js/main.40987fbf.js",
+    "main.css": "/how-to-learn3/static/css/main.74953de8.css",
+    "main.js": "/how-to-learn3/static/js/main.9b14e5d0.js",
     "static/js/787.3e2e4cd5.chunk.js": "/how-to-learn3/static/js/787.3e2e4cd5.chunk.js",
     "static/media/khan-book-2.png": "/how-to-learn3/static/media/khan-book-2.2961392e83044ca60048.png",
     "static/media/intro-image.png": "/how-to-learn3/static/media/intro-image.13303a317b392d978766.png",
@@ -13,13 +13,13 @@
     "static/media/learning-techniques-competence.png": "/how-to-learn3/static/media/learning-techniques-competence.116eb7ec72f1ad44a957.png",
     "static/media/logo.png": "/how-to-learn3/static/media/logo.1d2ccfdcbf3d7fba3075.png",
     "index.html": "/how-to-learn3/index.html",
-    "static/media/kaufman-triangle.svg": "/how-to-learn3/static/media/kaufman-triangle.8f3dc5fbf5dd8dd611e313387a83ac29.svg",
-    "main.e6464e27.css.map": "/how-to-learn3/static/css/main.e6464e27.css.map",
-    "main.40987fbf.js.map": "/how-to-learn3/static/js/main.40987fbf.js.map",
+    "static/media/kaufman-triangle.svg": "/how-to-learn3/static/media/kaufman-triangle.643b8cea3b47ecce1fcc532038e85c16.svg",
+    "main.74953de8.css.map": "/how-to-learn3/static/css/main.74953de8.css.map",
+    "main.9b14e5d0.js.map": "/how-to-learn3/static/js/main.9b14e5d0.js.map",
     "787.3e2e4cd5.chunk.js.map": "/how-to-learn3/static/js/787.3e2e4cd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6464e27.css",
-    "static/js/main.40987fbf.js"
+    "static/css/main.74953de8.css",
+    "static/js/main.9b14e5d0.js"
   ]
 }
