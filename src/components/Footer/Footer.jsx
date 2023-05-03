@@ -1,5 +1,5 @@
 import { Text, Image, Box } from '@chakra-ui/react';
-import logo from '../assets/logo.png';
+import logo from "../../assets/logo.png";
 
 const Footer = () => {
   return (

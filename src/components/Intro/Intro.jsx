@@ -1,5 +1,5 @@
 
-import { HStack, Image, Text, useMediaQuery, Box } from '@chakra-ui/react';
+import { HStack, Image, Text, Box } from '@chakra-ui/react';
 import introImage from "../../assets/intro-image.png"
 import "./intro.css";
 

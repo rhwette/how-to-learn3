@@ -1,8 +1,7 @@
 import React from 'react';
-import { Grid, GridItem } from '@chakra-ui/react';
-import { Box, Heading, Text } from '@chakra-ui/react';
+import { Grid, GridItem, Box } from '@chakra-ui/react';
 
-import Header from './components/Header.jsx';
+import Header from './components/Header/Header.jsx';
 import Intro from './components/Intro/Intro.jsx';
 import Problems from './components/Problems/Problems.jsx';
 import Techniques from './components/Techniques/Techniques.jsx';
@@ -13,13 +12,13 @@ import FactsAndFigs from './components/FactsAndFigs/FactsAndFigs.jsx';
 import Kahan from './components/Kahan/Kahan.jsx';
 import Principles from './components/Principles/Principles.jsx';
 import Resources from './components/Resources/Resources.jsx';
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer.jsx';
 import './App.css';
 
 function App() {
   return (
     <Box className="container">
-      <Box border={'dashed'} marginRight={'10px'} marginLeft={'10px'} h="100%">
+      <Box marginRight={'10px'} marginLeft={'10px'} h="100%">
         <Grid
           templateAreas={`  "header"
                                   "intro"
@@ -79,9 +78,9 @@ function App() {
             <Resources />
           </GridItem>
 
-          {/* <GridItem area="footer" bg="black">
+          <GridItem area="footer" bg="black">
             <Footer />
-          </GridItem> */}
+          </GridItem>
         </Grid>
       </Box>
     </Box>
